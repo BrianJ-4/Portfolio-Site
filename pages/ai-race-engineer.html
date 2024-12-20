@@ -1,0 +1,55 @@
+<div id="main-content">
+    <div class="project-overview-container">
+        <section class="project-header">
+            <h1>Project Overview</h1>
+            <p>
+                An AI-powered race engineer for the F1 games.
+            </p>
+        </section>
+        <div class="project-card-icon-container"><span class="material-symbols-outlined project-card-icon" onclick="window.open('https://github.com/BrianJ-4/AI-Race-Engineer', '_blank')">code</span></div>
+        <div id="project-details-image-container"><img src="assets/f1.png" alt="AI Race Engineer" class="project-details-image"></div>
+        <section class="project-details">
+            <div class="project-section">
+                <h3>Background</h3>
+                <p>
+                    While playing the F1 video game, the player needs to access and keep track of various kinds of data
+                    while focusing on driving. This requires the player to press buttons and navigate menus while
+                    driving. To solve this I created an AI race engineer. The AI race engineer simulates the real-life
+                    role of a race engineer who communicates with the driver during a race. In both the game and in the
+                    real world, telemetry data is constantly generated. This data is expansive and covers information
+                    such as tire and brake temperatures, car damage, lap times, track conditions, and much more. The AI
+                    race engineer uses the telemetry data from the game to provide the player with real-time race
+                    updates and answers to their questions.
+                </p>
+            </div>
+            <div class="project-section">
+                <h3>Technologies Used</h3>
+                <ul>
+                    <li>Natural Language Processing
+                        <ul>
+                            <li>Named Entity Recognition</li>
+                            <li>Intent Classification</li>
+                            <li>Spacy</li>
+                        </ul>
+                    </li>
+                    <li>Vosk</li>
+                    <li>pyttsx3</li>
+                    <li>Python
+                        <ul>
+                            <li>Multi-processing</li>
+                            <li>UDP raw data parsing</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="project-section">
+                <h3>Challenges Faced</h3>
+                <ul>
+                    <li>Understanding the format of the raw data was difficult and it took many hours to understand the
+                        structure of each packet type</li>
+                    <li>The aim of the system was to be fully offline, so it was difficult to implement STT and TTS</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</div>
