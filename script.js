@@ -57,8 +57,9 @@ document.querySelectorAll("#bottom-navbar .nav-item").forEach((navItem, index) =
 content.addEventListener("click", (event) => {
     if (event.target.id === "skills-card-button") {
         loadPage("skills", true);
-    } else if (event.target.id === "projects-card-button") {
-        loadPage("projects", true);
+    } 
+    else if (event.target.id === "resume-card-button") {
+        window.open("https://drive.google.com/file/d/10iw7_bHRcAjNi2oe3gTClY454sfqVMF2/view?usp=sharing","_blank")
     }
 });
 
